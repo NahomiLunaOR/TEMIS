@@ -1,4 +1,27 @@
 {
-  "name": "Temis",
-  "displayName": "Temis"
+  "expo": {
+    "name": "aprender",
+    "slug": "aprender",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/temis.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/temis.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/temis.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.aprender"
+    }
+  }
 }
